@@ -14,6 +14,9 @@ body{
     direction: rtl;
     background-color: #C3C6C7;
 }
+.no-padding{
+    padding: 0 !important;
+}
 /* main title */
 #main-title-layout{
     background-color: #1F2833;
@@ -22,4 +25,11 @@ body{
     color: #66FCF1;
     font-size: 5rem;
     font-weight: bold;
+}
+/* tabel */
+.table * {
+    color: #0b0c10;
+}
+.table tr:first-child{
+    background-color: #45A29E;
 }
