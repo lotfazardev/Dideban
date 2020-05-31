@@ -1,10 +1,20 @@
 // init tabel
 const tabel = document.getElementById('tabel')
 const validData = {
+    "price_dollar_rl" : "دلار آمریکا",
+    "price_eur" : "یورو اروپا",
+    "price_gbp":"پوند انگلیس",
+    "price_kwd" : "دینار کویت",
+    "price_aed" : "درهم امارات",
+    "sekee":"سکه امامی",
+    "sekeb" : "سکه بهار آزادی",
+    "nim" : "نیم سکه",
+    "rob" : "ربع سکه",
+    "gerami" : "سکه گرمی",
     "ons" : "انس طلا",
     "silver" : "انس نقره",
     "platinum" : "انس پلاتین",
-    "palladium" : "انس پالادیوم"
+    "palladium" : "انس پالادیوم",
 }
 const refreshData = () => {
     let data = {} ;
