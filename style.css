@@ -12,4 +12,14 @@
 body{
     text-align: right;
     direction: rtl;
+    background-color: #C3C6C7;
+}
+/* main title */
+#main-title-layout{
+    background-color: #1F2833;
+}
+#main-title-layout h1{
+    color: #66FCF1;
+    font-size: 5rem;
+    font-weight: bold;
 }
